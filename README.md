@@ -13,7 +13,7 @@ bower install frequency-calculator
 
 Once installed you can import the the library:
 ```javascript
-import FrequencyCalculator from 'FrequencyCalculator'
+import FrequencyCalculator from 'FrequencyCalculator';
 ```
 
 Once imported you can calculate the frequency of a note by supplying the note name and octave:
