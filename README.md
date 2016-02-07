@@ -31,7 +31,7 @@ FrequencyCalculator.calculateFrequencyByStep(-12);
 - [ ] Write tests
 - [ ] Create a demo
 
-### The MIT License (MIT)
+## The MIT License (MIT)
 Copyright © 2016 Sam Bellen
 
 Permission is hereby granted, free of charge, to any person
