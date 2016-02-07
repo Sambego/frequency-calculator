@@ -4,7 +4,7 @@ This is a small, simple library to calculate the frequency of a music note.
 
 To use this library, get the files with bower:
 ```
-bower install
+bower install frequency-calculator
 ```
 
 Once installed you can import the the library:
