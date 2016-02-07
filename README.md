@@ -34,6 +34,7 @@ FrequencyCalculator.calculateFrequencyByStep(-12);
 ## TODO
 - [ ] Write tests
 - [ ] Create a demo
+- [ ] Add frequency to note functions
 
 ## The MIT License (MIT)
 Copyright © 2016 Sam Bellen
