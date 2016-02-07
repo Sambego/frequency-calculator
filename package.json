@@ -1,0 +1,22 @@
+{
+  "name": "frequency-calculator",
+  "version": "0.0.2",
+  "description": "A small, simple library to calculate the frequency of a music note.",
+  "main": "frequency-calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sambego/frequency-calculator.git"
+  },
+  "keywords": [
+    "audio"
+  ],
+  "author": "Sambego <sambellen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sambego/frequency-calculator/issues"
+  },
+  "homepage": "https://github.com/Sambego/frequency-calculator#readme"
+}
