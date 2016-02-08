@@ -1,6 +1,5 @@
 # Frequency calculator
 
-node_modules/
 This is a small, simple library to calculate the frequency of a music note.
 
 To use this library, get the files with NPM or bower:
@@ -14,7 +13,7 @@ bower install frequency-calculator
 
 Once installed you can import the the library:
 ```javascript
-import FrequencyCalculator from 'FrequencyCalculator'
+import FrequencyCalculator from 'FrequencyCalculator';
 ```
 
 Once imported you can calculate the frequency of a note by supplying the note name and octave:
@@ -35,6 +34,7 @@ FrequencyCalculator.calculateFrequencyByStep(-12);
 ## TODO
 - [ ] Write tests
 - [ ] Create a demo
+- [ ] Add frequency to note functions
 
 ## The MIT License (MIT)
 Copyright © 2016 Sam Bellen
