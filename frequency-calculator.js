@@ -31,11 +31,7 @@ export default class FrequencyCalculator {
      * @return {Number}        [The number of half steps]
      */
     static calculateSteps(note, octave) {
-        if (octave === 4) {
-            return _steps[note];
-        } else {
-            return ((4 - octave) * -12) + _steps[note];
-        }
+        return ((4 - octave) * -12) + _steps[note];
     }
 
     /**
