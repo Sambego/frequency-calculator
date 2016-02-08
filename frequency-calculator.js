@@ -46,12 +46,11 @@ export default class FrequencyCalculator {
 
     /**
      * Calculate the frequency of a note based on the note and octave
-     * @param  {String} note   [description]
-     * @param  {Number} octave [description]
-     * @return {Number}        [description]
+     * @param  {String} note   [The note]
+     * @param  {Number} octave [The octave]
+     * @return {Number}        [The frequency of the nore]
      */
     static calculateFrequencyByNote(note, octave) {
         return this.calculateFrequencyByStep(this.calculateSteps(note, octave))
     }
 }
-
