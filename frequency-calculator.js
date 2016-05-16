@@ -80,7 +80,7 @@ export default class FrequencyCalculator {
      * @param  {Boolean} round     Should the steps be rounded
      * @return {Number}            The amount of half steps
      */
-    static calculateStepsFromFrequency(frequency, round) {
+    static calculateStepsFromFrequency(frequency, round = false) {
         const steps = 12 * Math.log(frequency / _base) / Math.log(2);
 
         if (round) {
