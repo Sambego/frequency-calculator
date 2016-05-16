@@ -70,16 +70,16 @@ You can calculate the note of a frequency:
 FrequencyCalculator.calculateNoteByFrequency(440); // -> A
 ```
 
-## calculateNoteByFrequency
-You can calculate the octave of a frequency. If you don't want the ocatave to be relative to A4, add `false` as the second parameter:
+## calculateOctaveByFrequency
+You can calculate the octave of a frequency. If you don't want the octave to be relative to A4, add `false` as the second parameter:
 ```javascript
-FrequencyCalculator.calculateNoteByFrequency(440); // -> 0
+FrequencyCalculator.calculateOctaveByFrequency(440); // -> 0
 ```
 
 or
 
 ```javascript
-FrequencyCalculator.calculateNoteByFrequency(440, false); // -> 4
+FrequencyCalculator.calculateOctaveByFrequency(440, false); // -> 4
 ```
 
 ## TODO
