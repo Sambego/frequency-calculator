@@ -3,7 +3,7 @@
  * Github: https://github.com/Sambego/frequency-calculator
  * Twitter: @Sambego
  *
- * This is a small library to convert frequencies to steps, notes and ocatave.
+ * This is a small library to convert frequencies to steps, notes and octaves.
  *
  * Examples:
  *

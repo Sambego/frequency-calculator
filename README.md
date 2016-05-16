@@ -1,6 +1,6 @@
 # Frequency calculator
 
-This is a small, simple library to calculate the frequency of a music note.
+This is a small library to convert frequencies to steps, notes and octaves.
 
 To use this library, get the files with NPM or bower:
 ```
@@ -16,16 +16,16 @@ Once installed you can import the the library:
 import FrequencyCalculator from 'FrequencyCalculator';
 ```
 
-## calculateFrequencyByNote
-Once imported you can calculate the frequency of a note by supplying the note name and octave:
-```javascript
-FrequencyCalculator.calculateFrequencyByNote('C', 0) // -> 16.35Hz;
-```
-
 ## calculateSteps
 You can calculate the number of half steps between the base note (A4) and a given note:
 ```javascript
 FrequencyCalculator.calculateSteps('G', 4) // -> -2;
+```
+
+## calculateFrequencyByNote
+Once imported you can calculate the frequency of a note by supplying the note name and octave:
+```javascript
+FrequencyCalculator.calculateFrequencyByNote('C', 0) // -> 16.35Hz;
 ```
 
 ## calculateFrequencyByStep
