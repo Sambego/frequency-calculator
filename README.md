@@ -13,7 +13,7 @@ bower install frequency-calculator
 
 Once installed you can import the the library:
 ```javascript
-import FrequencyCalculator from 'FrequencyCalculator';
+import FrequencyCalculator from 'frequency-calculator';
 ```
 
 ## calculateSteps
