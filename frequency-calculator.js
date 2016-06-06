@@ -85,9 +85,9 @@ export default class FrequencyCalculator {
 
         if (round) {
             return Math.round(steps);
-        } else {
-            return steps;
         }
+
+        return steps;
     }
 
     /**
@@ -113,9 +113,9 @@ export default class FrequencyCalculator {
 
         if (relativeToA4) {
             return steps < 0 ? Math.ceil(octave) : Math.floor(octave);
-        } else (
-            return (steps < 0 ? Math.ceil(octave) : Math.floor(octave) + 4);
-        )
+        }
+
+        return (steps < 0 ? Math.ceil(octave) : Math.floor(octave) + 4);
     }
 
     /**
