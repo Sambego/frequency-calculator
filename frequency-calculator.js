@@ -1,3 +1,5 @@
+'use babel';
+
 /**
  * Author: Sam Bellen
  * Github: https://github.com/Sambego/frequency-calculator
