@@ -2,8 +2,11 @@
   "name": "frequency-calculator",
   "version": "0.0.7",
   "description": "A small, simple library to calculate the frequency of a music note.",
-  "main": "frequency-calculator.js",
+  "main": "frequency-calculator-compiled.js",
   "scripts": {
+    "build": "babel frequency-calculator.js --out-file frequency-calculator-compiled.js --presets=@babel/preset-env",
+    "prepublish": "npm run build",
+    "postversion": "git push; git push --tags; npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Sambego/frequency-calculator/issues"
   },
-  "homepage": "https://github.com/Sambego/frequency-calculator#readme"
+  "homepage": "https://github.com/Sambego/frequency-calculator#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
 }
